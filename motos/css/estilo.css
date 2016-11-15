@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+h1,h2,h3{
+	margin: 10px 0px 10px 0px;
+}
+
+html{
+	background-color: lightblue;
+}
+
+body{
+	font-family: verdana, helvetica, arial;
+	width: 80%;
+	margin: 20px auto 20px;
+	padding: 20px;
+	min-height: 300px;
+	min-width: 300px;
+	background-color: white;
+	box-shadow: 4px 4px 4px black;
+}
+
+header{
+	text-align: center;
+	background-image: url('../images/header.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	padding: 30px;
+	border: solid 2px darkblue;
+}
+
+ul.menu{
+	background-color: darkblue;
+	border: solid 2px darkblue;
+	color: white;
+	font-weight: bold;
+}
+ul.menu li{
+	display: inline-block;
+}
+
+ul.menu li a{
+	display: inline-block;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+ul.menu li a:hover{
+	color: darkblue;
+	background-color: white;
+}
+
+table{
+	width: 100%;
+}
+
+table tr:nth-of-type(even){
+	background-color: #eef;
+}
+
+table th, table td{
+	text-align: center;
+	padding: 5px;
+}
+
+table img.boton{
+	height: 40px;
+	width: 40px;	
+}
+
+form label{
+	display: inline-block;
+	width: 120px;
+}
+
+span.democolor{
+	display: inline-block;
+	vertical-align: top;
+	height: 30px; 
+	width: 200px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px black;
+	border: solid 2px darkblue; 
+}
+
+a.volver{
+	display: block;
+	margin: 20px auto 10px auto;
+	text-align: center;
+	background-color: darkblue;
+	color: white;
+	font-weight: bold;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 0.8em;
+	font-style: italic;
+}
