@@ -14,6 +14,7 @@
 		<ul class="menu">
 			<li><a href="index.php?operacion=listar">Listar motos</a></li>
 			<li><a href="index.php?operacion=nueva">Nueva moto</a></li>
+			<li><a href="##">Cambio</a></li>
 		</ul>
 		
 		<h1>EXITO</h1>
